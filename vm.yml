@@ -1,0 +1,5 @@
+- hosts: host1
+  become: yes
+  tasks:
+    - name: Example task
+      shell: "echo OK"
